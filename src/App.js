@@ -28,7 +28,7 @@ const App = () => {
             }
           />
           <Route
-            path="/movies"
+            path="/klasemen"
             element={
               <>
                 <Navbar />
@@ -38,7 +38,7 @@ const App = () => {
             }
           />
           <Route
-            path="/series"
+            path="/livescore"
             element={
               <>
                 <Navbar />
@@ -48,7 +48,7 @@ const App = () => {
             }
           />
           <Route
-            path="/newandpopular"
+            path="/berita"
             element={
               <>
                 <Navbar />
@@ -58,7 +58,7 @@ const App = () => {
             }
           />
           <Route
-            path="/mylist"
+            path="/transfer"
             element={
               <>
                 <Navbar />

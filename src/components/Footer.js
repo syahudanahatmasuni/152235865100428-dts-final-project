@@ -10,87 +10,42 @@ const Footer = () => {
     return (
         <Box sx={{ bgcolor: 'common.black', color: 'grey.700'}}>
             
-            <Container maxWidth="md" sx={{ py: 6, mt: 8 }}>
+            <Container maxWidth="md" sx={{ py: 6, mt: 8}}>
+            
+            <center><img
+            src={require("../assets/logo.png")}
+            alt="logo"
+            height={44.8}
+            width={128}
+          /></center>
+          
 
                 <Grid container spacing={4} sx={{ mb: 4, textAlign: 'left' }}>
                     <Grid item xs={6} md={3}>
                         <Stack spacing={'15px'}>
                             <Typography variant="caption" component="a" href="#">
-                                Audio and Subtitles
-                            </Typography>
-                            <Typography variant="caption" component="a" href="#">
-                                Media Center
-                            </Typography>
-                            <Typography variant="caption" component="a" href="#">
-                                Security
-                            </Typography>
-                            <Typography variant="caption" component="a" href="#">
-                                Contact us
-                            </Typography>
-                            <Select
-                            name="lang"
-                            variant="outlined"
-                            size="small"
-                            defaultValue="DEFAULT"
-                            sx={{ 
-                                borderWidth: '1px',
-                                borderStyle: 'solid',
-                                borderColor: '#808080',
-                                color: '#808080',
-                                width: '113px',
-                                height: '36px',
-                                fontFamily: 'Inter',
-                                fontStyle: 'normal',
-                                fontWeight: 400,
-                                fontSize: '13px',
-                                lineHeight: '16px',
-                                display: 'flex',
-                                flexDirection: 'row',
-                                alignItems: 'flex-start'
-                            }}
-                    >
-                        <MenuItem value="DEFAULT">Service Code</MenuItem>
-                        <MenuItem value="ID">Bahasa Indonesia</MenuItem>
-                        <MenuItem value="EN">English</MenuItem>
-                    </Select>
-                        </Stack>
-                    </Grid>
-                    <Grid item xs={6} md={3}>
-                    <Stack spacing={'15px'}>
-                            <Typography variant="caption" component="a" href="#">
-                                Audio Description
-                            </Typography>
-                            <Typography variant="caption" component="a" href="#">
-                                Investor Relations
-                            </Typography>
-                            <Typography variant="caption" component="a" href="#">
-                                Legal Provisions
+                                Hubungi Kami
                             </Typography>
                         </Stack>
                     </Grid>
                     <Grid item xs={6} md={3}>
                     <Stack spacing={'15px'}>
                             <Typography variant="caption" component="a" href="#">
-                                Help center
-                            </Typography>
-                            <Typography variant="caption" component="a" href="#">
-                                Jobs
-                            </Typography>
-                            <Typography variant="caption" component="a" href="#">
-                                Cookie Preferences
+                                Syarat & Kondisi
                             </Typography>
                         </Stack>
                     </Grid>
                     <Grid item xs={6} md={3}>
                     <Stack spacing={'15px'}>
                             <Typography variant="caption" component="a" href="#">
-                                Gift Cards
+                               Kebijakan Privasi
                             </Typography>
+                        </Stack>
+                    </Grid>
+                    <Grid item xs={6} md={3}>
+                    <Stack spacing={'15px'}>
                             <Typography variant="caption" component="a" href="#">
-                                Terms of Use
-                            </Typography>
-                            <Typography variant="caption" component="a" href="#">
-                                Corporate Information
+                                Pengaturan Privasi
                             </Typography>
                         </Stack>
                     </Grid>
@@ -98,7 +53,7 @@ const Footer = () => {
              
 
                 <Typography variant="caption2" sx={{  float: 'left' }}> 
-                © 2022 Movies, All Right Reserved
+                Hak Cipta © 2022 Syahuda Nahatmasuni Hak cipta dilindungi oleh undang-undang. Dilarang menerbitkan, menyiarkan, menulis ulang, atau menyebarkan informasi dari situs ini tanpa meminta izin tertulis dari Goal (Indonesia)
                 </Typography>
             </Container>
             

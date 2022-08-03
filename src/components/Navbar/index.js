@@ -32,10 +32,10 @@ const Navbar = () => {
       <Nav>
         <NavLink to="/">
           <img
-            src={require("../../assets/movielogo.png")}
+            src={require("../../assets/logo.png")}
             alt="logo"
             height={44}
-            width={36}
+            width={60}
           />
         </NavLink>
         <Bars />
@@ -43,17 +43,17 @@ const Navbar = () => {
           <NavLink to="/" activeStyle>
             Home
           </NavLink>
-          <NavLink to="/series" activeStyle>
-            Series
+          <NavLink to="/klasemen" activeStyle>
+            Klasemen
           </NavLink>
-          <NavLink to="/movies" activeStyle>
-            Movies
+          <NavLink to="/livescore" activeStyle>
+            Livescore
           </NavLink>
-          <NavLink to="/newandpopular" activeStyle>
-            New and Popular
+          <NavLink to="/berita" activeStyle>
+            Berita
           </NavLink>
-          <NavLink to="/mylist" activeStyle>
-            My List
+          <NavLink to="/transfer" activeStyle>
+            Transfer
           </NavLink>
         </NavMenu>
         <NavBtn>
