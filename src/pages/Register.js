@@ -23,7 +23,7 @@ function Copyright(props) {
       {...props}
     >
       {"Copyright © "}
-      <Link to="https://mui.com/">Movies Apps!</Link> {new Date().getFullYear()}
+      <Link to="https://mui.com/">Syahuda Nahatmasuni</Link> {new Date().getFullYear()}
       {"."}
     </Typography>
   );
